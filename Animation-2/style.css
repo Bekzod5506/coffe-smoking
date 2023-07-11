@@ -1,0 +1,97 @@
+body{
+    background-color: burlywood;
+}
+.cup{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    top: 300px;
+    left: 590px;
+    border-radius: 60px 60px 280px 280px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    position: relative;
+    
+
+}
+.handle{position: relative;
+        left: 835px;
+        top: 77px;
+       width: 80px;
+       height: 80px;
+       background-color: burlywood;
+       border: 28px solid black;
+       border-left: none;
+       border-radius: 0px 30px 82px 7px;
+}
+ 
+.fume1{display: inline-block;
+    border-radius: 20px;
+    position: relative;
+       width: 200px;
+       height: 50px;
+       background: #e5e5e5;;
+       opacity: 0;
+       left: 610px;
+       top: -150px;
+       animation: fume1 2s linear infinite;
+}
+@keyframes fume1 {
+    0%{
+        top:-160px;
+        opacity: 1;
+    }
+    50%{width: 150px;
+        top:-210px;
+        opacity:0.5;
+        margin-left: 25px;
+    }
+    75%{ width:100px;
+        top: -260px;
+        opacity: 0.3;
+        margin-left: 50px;}
+        100%{
+            width: 50px;
+            top: -310px;
+            opacity:0.1;
+            margin-left: 75px;
+        }
+}   
+.fume2{
+    position: relative;
+    border-radius: 20px;
+       width: 200px;
+       height: 50px;
+       background: #e5e5e5;;
+       opacity: 0;
+       left: 610px;
+       top: -160px;
+       animation: fume2 2s linear 0.7s infinite;
+}
+@keyframes fume2 {
+    0%{
+        top:-190px;
+        opacity: 1;
+    }
+    50%{width: 150px;
+        top:-240px;
+        opacity:0.5;
+        margin-left: 25px;
+    }
+    75%{ width:100px;
+        top: -300px;
+        opacity: 0.3;
+        margin-left: 50px;}
+
+        100%{
+            width: 50px;
+            top: -360px;
+            opacity:0.1;
+            margin-left: 75px;
+        }
+    }
+       
